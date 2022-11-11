@@ -1,0 +1,23 @@
+/* general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* grids */
+
+.contenedor-grid {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "main main main"
+        "main main main"
+        "footer footer footer"
+    ;
+}

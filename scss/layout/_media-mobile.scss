@@ -1,0 +1,18 @@
+/* mobile */
+
+@media (max-width:680px) {
+
+    .contenedor-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas:
+            "header"
+            "main"
+            "main"
+            "footer";
+    }
+
+    .contenedor-nav {
+        flex-direction: column;
+    }
+}

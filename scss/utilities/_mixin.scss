@@ -1,0 +1,9 @@
+/* mixin */ 
+
+@mixin mixinTexto {
+    text-align: center;
+}
+
+@mixin mixinMargin {
+    margin-bottom: 20px;
+}

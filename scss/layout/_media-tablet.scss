@@ -1,0 +1,16 @@
+/* tablet */
+
+@media all and (max-width: 868px) {
+
+    .contenedor-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+            "header header header"
+            "main main main"
+            "main main main"
+            "main main main"
+            "footer footer footer"
+        ;
+    }
+}
