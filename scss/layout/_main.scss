@@ -6,13 +6,13 @@ main {
     height: 100vh;
 
     .contenedor-main {
-        text-align: center;
+        @include mixinTexto;
     }
 
     .titulo-nosotros {
         font-family: 'Times New Roman', Times, serif;
         padding: 1.15rem;
-        text-align: center;
+        @include mixinTexto;
 
         &::first-letter {
             color: $color-principal;

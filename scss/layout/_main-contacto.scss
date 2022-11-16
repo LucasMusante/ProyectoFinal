@@ -16,15 +16,15 @@
 
     .tituloForm {
         color: white;
-        text-align: center;
+        @include mixinTexto;
         margin: 0;
         font-size: 20px;
-        margin-bottom: 20px;
+        @include mixinMargin;
     }
 
     input {
         width: 100%;
-        margin-bottom: 20px;
+        @include mixinMargin;
         padding: 7px;
         box-sizing: border-box;
         font-size: 17px;
@@ -32,7 +32,7 @@
 
     textarea {
         width: 100%;
-        margin-bottom: 20px;
+        @include mixinMargin;
         padding: 7px;
         box-sizing: border-box;
         font-size: 17px;
